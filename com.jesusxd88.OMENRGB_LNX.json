@@ -1,0 +1,38 @@
+{
+    "app-id" : "com.jesusxd88.OMENRGB_LNX",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "42",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "omenrgb-lnx",
+    "finish-args" : [
+        "--share=network",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--device=dri",
+        "--socket=wayland"
+    ],
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.la",
+        "*.a"
+    ],
+    "modules" : [
+        {
+            "name" : "omenrgb-lnx",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "file:///home/jesusxd88/Proyectos/OMENRGB-LNX"
+                }
+            ]
+        }
+    ]
+}

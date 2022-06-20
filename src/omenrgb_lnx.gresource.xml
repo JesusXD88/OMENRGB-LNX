@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/jesusxd88/OMENRGB_LNX">
+    <file>omenrgb_lnx-window.ui</file>
+    <file>gtk/help-overlay.ui</file>
+  </gresource>
+</gresources>

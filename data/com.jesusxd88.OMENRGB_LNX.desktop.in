@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=omenrgb-lnx
+Exec=omenrgb-lnx
+Icon=com.jesusxd88.OMENRGB_LNX
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

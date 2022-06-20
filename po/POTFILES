@@ -1,0 +1,7 @@
+data/com.jesusxd88.OMENRGB_LNX.desktop.in
+data/com.jesusxd88.OMENRGB_LNX.appdata.xml.in
+data/com.jesusxd88.OMENRGB_LNX.gschema.xml
+src/omenrgb_lnx-window.ui
+src/main.c
+src/omenrgb_lnx-window.c
+
